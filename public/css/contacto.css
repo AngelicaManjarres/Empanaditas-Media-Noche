@@ -1,0 +1,67 @@
+.contacto {
+	background-color: #EFEEDF;
+	padding-left: 1rem;
+}
+
+input, textarea {
+	margin: 1rem 0;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	font-family: 'Quicksand', serif;
+}
+
+textarea {
+	width: 50%;
+}
+
+.nombre, .email, .telefono {
+	width: 30%;
+	font-size: 1.2rem;
+}
+
+.submit {
+	margin: 2rem .5rem;
+	border: none;
+	border-radius: 0;
+	background-color: #DC9200;
+	color: #FFF;
+	font-size: 1.7rem;
+	padding: 8px 16px;
+	font-family: 'Damion';
+}
+
+.submit:hover {
+	background-color: #DC8000;
+}
+
+/*Contacto media query*/
+@media (max-width: 900px){
+	input, textarea {
+		margin: .7rem 0;
+	}
+	.nombre, .email, .telefono {
+		width: 50%;
+		font-size: 1rem;
+	}
+}
+@media (max-width: 600px){
+	.contacto p {
+		font-size: .9rem;
+		padding-right: .5rem;
+	}
+	input, textarea {
+		margin: .5rem 0;
+	}
+	.nombre, .email, .telefono {
+		width: 80%;
+		font-size: .9rem;
+	}
+	textarea {
+		width: 80%;
+	}
+	.submit {
+		font-size: 1.3rem;
+		margin: 1.5rem .3rem;
+
+	}
+}

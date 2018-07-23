@@ -1,0 +1,20 @@
+.carrito-compras {
+	background-color: #EFEEDF;
+	min-height: 20rem;
+}
+
+.carrito-compras-titulo {
+	margin-top: 1rem;
+	padding-top: 2rem;
+}
+
+.carrito-compras p {
+	padding-left: 2rem;
+}
+
+@media (max-width: 800px){
+	.carrito-compras  p{
+		padding-left: .7rem;
+		font-size: .9rem;
+	}
+}

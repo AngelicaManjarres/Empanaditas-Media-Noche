@@ -1,0 +1,13 @@
+<div id="contacto" class="contacto">
+	<h2 class="contacto-titulo titulo">Contacto</h2>
+	<p>Siempre queremos saber lo que piensas. Llena este formulario y nos comunicaremos contigo.</p>
+	{{ enviado }}
+	<form class="formulario-contacto" action="send" method="post">
+		<input class="nombre" type="text" name="nombre" placeholder="Nombre"><br>
+		<input class="email" type="email" name="email" placeholder="E-mail"><br>
+		<input class="telefono" type="phone" name="telefono" placeholder="Teléfono"><br>
+		<textarea class="mensaje" name="mensaje" rows="6" cols="50" placeholder="Su mensaje"></textarea><br>
+		<input class="submit" type="submit" name="submit" value="Enviar"><br>
+	</form>
+
+</div>

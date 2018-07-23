@@ -1,0 +1,32 @@
+.nosotros {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.nosotros-izquierda {
+	flex-basis: 35%;
+}
+
+.nosotros-derecha {
+	margin: auto 0;
+	padding-top: 3rem;
+	flex-basis: 55%;
+}
+
+/*Nosotros media query*/
+@media (max-width: 650px){
+	.nosotros-derecha p {
+		font-size: .85rem;
+	}
+}
+@media (max-width: 550px){
+	.nosotros-izquierda {
+		flex-basis: 100%;
+	}
+	.nosotros-derecha {
+		text-align: justify;
+		padding-top: .5rem;
+		flex-basis: 100%;
+	}
+}

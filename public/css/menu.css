@@ -1,0 +1,43 @@
+.menu {
+	width: 100%;
+}
+
+.contenedor-menu {
+	float: left;
+	width: 22%;
+	background-color: #ffffcc;
+	border-radius: 3px;
+	margin: .4rem;
+	padding: .5rem;
+}
+
+.contenedor-menu:hover {
+	cursor: pointer;
+
+}
+
+
+/*Menu media query*/
+@media (max-width: 1200px) {
+	.contenedor-menu {
+		width: 25%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.contenedor-menu {
+		width: 40%;
+	}
+	.contenedor-menu p {
+		font-size: .9rem;
+	}
+}
+
+@media (max-width: 550px) {
+	.contenedor-menu {
+		width: 90%;
+	}
+	.contenedor-menu p {
+		font-size: 1rem;
+	}
+}

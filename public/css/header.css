@@ -1,0 +1,154 @@
+.header {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.header-container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.header-title {
+	display: none;
+}
+
+/*Header Logo*/
+.header-logo {
+	position: absolute;
+	top: 0;
+	float: left;
+	width: 35%;
+}
+
+.header-logo img {
+	width: 60%;
+	transition: all .5s;
+}
+
+/*Navbar*/
+.header-navbar {
+	float: right;
+	width: 60%;
+	z-index: 30;
+}
+.navbar ul a {
+	float: left;
+	list-style: none;
+	text-decoration: none;
+	color: #DC9227;
+	font-family: 'Damion', 'Arial';
+	font-size: 1.8rem;
+	margin-left: 2rem;
+	transition: all .2s;
+}
+
+.navbar ul a:hover {
+	border-bottom: 5px solid #DC9227;
+	border-radius: 2px;
+}
+
+/*Large Hero*/
+.large-hero img {
+	width: 100%;
+}
+
+
+/*Sticky*/
+
+.sticky-reduce-size {
+	width: 20% !important;
+}
+
+.sticky-header {
+	background-color: rgba(255, 255, 255, .7);
+	height: 65px;
+}
+
+.sticky-navbar {
+	font-size: 1.5rem !important;
+}
+
+/*Header media query*/
+@media (max-width: 1220px) {
+	.header-logo {
+		width: 27%;
+	}
+	.header-navbar {
+		width: 65%;
+	}
+	.navbar ul a {
+		font-size: 1.3rem;
+		margin-left: 1.5rem;
+	}
+
+	/*Sticky header query*/
+	.sticky-reduce-size {
+		width: 32% !important;
+	}
+
+	.sticky-header {
+		background-color: rgba(255, 255, 255, .7);
+		height: 65px;
+	}
+
+	.sticky-navbar {
+		font-size: 1.3rem !important;
+		margin-left: 1.5rem;
+	}
+}
+@media (max-width: 800px) {
+	.header-logo {
+		width: 20%;
+	}
+	.header-navbar {
+		width: 75%;
+	}
+	.navbar ul a {
+		font-size: 1.2rem;
+		margin-left: 1rem;
+	}
+	/*Sticky header query*/
+	.sticky-reduce-size {
+		width: 70% !important;
+	}
+
+	.sticky-header {
+		background-color: rgba(255, 255, 255, .7);
+		height: 65px;
+	}
+
+	.sticky-navbar {
+		font-size: 1.2rem !important;
+	}
+}
+@media (max-width: 650px) {
+	.header-logo {
+		width: 33%;
+	}
+	.header-navbar {
+		width: 75%;
+	}
+	.navbar ul a {
+		font-size: 1rem;
+		margin-left: .8rem;
+	}
+	/*Sticky header query*/
+	.sticky-reduce-size {
+		width: 70% !important;
+	}
+
+	.sticky-header {
+		background-color: rgba(255, 255, 255, .7);
+		height: 65px;
+	}
+
+	.sticky-navbar {
+		font-size: 1rem !important;
+	}
+	.navbar ul a:hover {
+		border-bottom: 3px solid #DC9227;
+		border-radius: 2px;
+	}
+}
